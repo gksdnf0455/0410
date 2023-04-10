@@ -9,28 +9,33 @@
         .box{
             width : 100px;
             height : 100px;
-            position : absolute;
+            position : absolute;    
         }
         .box:nth-child(1){
             background : red;
             left : 10px;
             top : 10px;
+            z-index : 100;
         }
         .box:nth-child(2){
             background : green;
             left : 50px;
-            right : 50px;
+            top : 50px;
+            z-index : 10;
         }
         .box:nth-child(3){
             background : blue;
             left : 90px;
-            right : 90px;
+            top : 90px;
+            z-index : 1;
         }
     </style>
 </head>
 <body>
+    <h1>Lorem Ipsum is simply dummy text of the printing and typesetting</h1>
     <div class="box"></div>
     <div class="box"></div>
     <div class="box"></div>
+    <h1>Lorem Ipsum is simply dummy text of the printing and typesetting</h1>
 </body>
 </html>
