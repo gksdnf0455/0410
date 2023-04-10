@@ -14,20 +14,30 @@
             border-radius: 10px;
         }
         .button{
-            width : 20%;
+            width : 100%;
             border-radius: 15px;
         }
         a{
             text-align : center;
         }
+     
     </style>
 </head>
 <body>
     <h1>간단한 입력 양식</h1>
-    <div >
-        <div class="textbox">아이디 <input type="text" class="ipbox"></div>
-        <div class="textbox">비밀번호 <input type="password" class="ipbox"></div>
-        <button class="button">제출</button>
-    </div>
+    <table>
+        <tr>
+            <td>아이디</td>
+            <td><input type="text" class="ipbox"></td>
+        </tr>
+        <tr>
+            <td>비밀번호</td>
+            <td><input type="password" class="ipbox"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button class="button">제출</button></td>
+        </tr>
+    </table>
 </body>
 </html>
